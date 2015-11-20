@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ASTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [NSThread sleepForTimeInterval:3.0];
+    //1.创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //设置窗口的根控制器
+    ASTabBarController *tabVC = [[ASTabBarController alloc]init];
+    self.window.rootViewController = tabVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

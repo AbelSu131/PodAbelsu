@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54820549F16D8D0127366194 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08005BE59AA08413F93C981 /* libPods.a */; };
 		B5941C9D1BF0F548008FCD5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5941C9C1BF0F548008FCD5E /* main.m */; };
 		B5941CA01BF0F548008FCD5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5941C9F1BF0F548008FCD5E /* AppDelegate.m */; };
 		B5941CA31BF0F548008FCD5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5941CA21BF0F548008FCD5E /* ViewController.m */; };
 		B5941CA61BF0F548008FCD5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941CA41BF0F548008FCD5E /* Main.storyboard */; };
 		B5941CA81BF0F548008FCD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941CA71BF0F548008FCD5E /* Assets.xcassets */; };
 		B5941CAB1BF0F548008FCD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941CA91BF0F548008FCD5E /* LaunchScreen.storyboard */; };
+		B5ED607A1BF37023003250C8 /* ASTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED60791BF37023003250C8 /* ASTabBarController.m */; };
+		B5ED607F1BF372A5003250C8 /* tab_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5ED607C1BF372A5003250C8 /* tab_1@2x.png */; };
+		B5ED60801BF372A5003250C8 /* tab_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5ED607D1BF372A5003250C8 /* tab_3@2x.png */; };
+		B5ED60811BF372A5003250C8 /* tab_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5ED607E1BF372A5003250C8 /* tab_2@2x.png */; };
+		B5ED60871BF3732E003250C8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED60861BF3732E003250C8 /* HomeViewController.m */; };
+		B5ED608A1BF3734C003250C8 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED60891BF3734C003250C8 /* ListViewController.m */; };
+		B5ED608D1BF3735D003250C8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED608C1BF3735D003250C8 /* MineViewController.m */; };
+		B5ED60901BF37A55003250C8 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED608F1BF37A55003250C8 /* Menu.m */; };
+		B5ED60961BF37B07003250C8 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED60951BF37B07003250C8 /* Cell.m */; };
+		B5ED60981BF37B28003250C8 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5ED60971BF37B28003250C8 /* Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33162F88F74C67AFB21E19B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3E66A245258C551642EE7963 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B08005BE59AA08413F93C981 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5941C981BF0F548008FCD5E /* PodAbelsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodAbelsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5941C9C1BF0F548008FCD5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5941C9E1BF0F548008FCD5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +40,22 @@
 		B5941CA71BF0F548008FCD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5941CAA1BF0F548008FCD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5941CAC1BF0F548008FCD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5ED60781BF37023003250C8 /* ASTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTabBarController.h; sourceTree = "<group>"; };
+		B5ED60791BF37023003250C8 /* ASTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTabBarController.m; sourceTree = "<group>"; };
+		B5ED607C1BF372A5003250C8 /* tab_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1@2x.png"; sourceTree = "<group>"; };
+		B5ED607D1BF372A5003250C8 /* tab_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_3@2x.png"; sourceTree = "<group>"; };
+		B5ED607E1BF372A5003250C8 /* tab_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2@2x.png"; sourceTree = "<group>"; };
+		B5ED60851BF3732E003250C8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B5ED60861BF3732E003250C8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B5ED60881BF3734C003250C8 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B5ED60891BF3734C003250C8 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B5ED608B1BF3735D003250C8 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		B5ED608C1BF3735D003250C8 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		B5ED608E1BF37A55003250C8 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		B5ED608F1BF37A55003250C8 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		B5ED60941BF37B07003250C8 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		B5ED60951BF37B07003250C8 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		B5ED60971BF37B28003250C8 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54820549F16D8D0127366194 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03801AAD4E507EECDA234E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B08005BE59AA08413F93C981 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AB11487F5405B6E0DD0B50D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33162F88F74C67AFB21E19B6 /* Pods.debug.xcconfig */,
+				3E66A245258C551642EE7963 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B5941C8F1BF0F548008FCD5E = {
 			isa = PBXGroup;
 			children = (
 				B5941C9A1BF0F548008FCD5E /* PodAbelsu */,
 				B5941C991BF0F548008FCD5E /* Products */,
+				9AB11487F5405B6E0DD0B50D /* Pods */,
+				03801AAD4E507EECDA234E4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +108,11 @@
 		B5941C9A1BF0F548008FCD5E /* PodAbelsu */ = {
 			isa = PBXGroup;
 			children = (
-				B5941C9E1BF0F548008FCD5E /* AppDelegate.h */,
-				B5941C9F1BF0F548008FCD5E /* AppDelegate.m */,
-				B5941CA11BF0F548008FCD5E /* ViewController.h */,
-				B5941CA21BF0F548008FCD5E /* ViewController.m */,
-				B5941CA41BF0F548008FCD5E /* Main.storyboard */,
-				B5941CA71BF0F548008FCD5E /* Assets.xcassets */,
-				B5941CA91BF0F548008FCD5E /* LaunchScreen.storyboard */,
-				B5941CAC1BF0F548008FCD5E /* Info.plist */,
+				B5ED60741BF36CCD003250C8 /* Main */,
+				B5ED60701BF36C99003250C8 /* 1 */,
+				B5ED60711BF36CA8003250C8 /* 2 */,
+				B5ED60721BF36CB2003250C8 /* 3 */,
+				B5ED607B1BF37281003250C8 /* Resource */,
 				B5941C9B1BF0F548008FCD5E /* Supporting Files */,
 			);
 			path = PodAbelsu;
@@ -74,9 +121,92 @@
 		B5941C9B1BF0F548008FCD5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5941C9E1BF0F548008FCD5E /* AppDelegate.h */,
+				B5941C9F1BF0F548008FCD5E /* AppDelegate.m */,
+				B5941CA11BF0F548008FCD5E /* ViewController.h */,
+				B5941CA21BF0F548008FCD5E /* ViewController.m */,
+				B5941CA41BF0F548008FCD5E /* Main.storyboard */,
+				B5941CA71BF0F548008FCD5E /* Assets.xcassets */,
+				B5941CA91BF0F548008FCD5E /* LaunchScreen.storyboard */,
+				B5941CAC1BF0F548008FCD5E /* Info.plist */,
 				B5941C9C1BF0F548008FCD5E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5ED60701BF36C99003250C8 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED60841BF372E2003250C8 /* Controller */,
+				B5ED60831BF372DB003250C8 /* View */,
+				B5ED60821BF372CE003250C8 /* Model */,
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		B5ED60711BF36CA8003250C8 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED60881BF3734C003250C8 /* ListViewController.h */,
+				B5ED60891BF3734C003250C8 /* ListViewController.m */,
+			);
+			name = 2;
+			sourceTree = "<group>";
+		};
+		B5ED60721BF36CB2003250C8 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED608B1BF3735D003250C8 /* MineViewController.h */,
+				B5ED608C1BF3735D003250C8 /* MineViewController.m */,
+			);
+			name = 3;
+			sourceTree = "<group>";
+		};
+		B5ED60741BF36CCD003250C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED60781BF37023003250C8 /* ASTabBarController.h */,
+				B5ED60791BF37023003250C8 /* ASTabBarController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B5ED607B1BF37281003250C8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED607C1BF372A5003250C8 /* tab_1@2x.png */,
+				B5ED607D1BF372A5003250C8 /* tab_3@2x.png */,
+				B5ED607E1BF372A5003250C8 /* tab_2@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		B5ED60821BF372CE003250C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED608E1BF37A55003250C8 /* Menu.h */,
+				B5ED608F1BF37A55003250C8 /* Menu.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B5ED60831BF372DB003250C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED60941BF37B07003250C8 /* Cell.h */,
+				B5ED60951BF37B07003250C8 /* Cell.m */,
+				B5ED60971BF37B28003250C8 /* Cell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B5ED60841BF372E2003250C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED60851BF3732E003250C8 /* HomeViewController.h */,
+				B5ED60861BF3732E003250C8 /* HomeViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5941CAF1BF0F548008FCD5E /* Build configuration list for PBXNativeTarget "PodAbelsu" */;
 			buildPhases = (
+				A4D99A76F207C53F6F1FFA4F /* Check Pods Manifest.lock */,
 				B5941C941BF0F548008FCD5E /* Sources */,
 				B5941C951BF0F548008FCD5E /* Frameworks */,
 				B5941C961BF0F548008FCD5E /* Resources */,
+				10F13CD35A16C84ECB2E10D2 /* Embed Pods Frameworks */,
+				C7F75632AD4BFFE16E5709FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +270,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5ED607F1BF372A5003250C8 /* tab_1@2x.png in Resources */,
+				B5ED60801BF372A5003250C8 /* tab_3@2x.png in Resources */,
 				B5941CAB1BF0F548008FCD5E /* LaunchScreen.storyboard in Resources */,
+				B5ED60981BF37B28003250C8 /* Cell.xib in Resources */,
 				B5941CA81BF0F548008FCD5E /* Assets.xcassets in Resources */,
 				B5941CA61BF0F548008FCD5E /* Main.storyboard in Resources */,
+				B5ED60811BF372A5003250C8 /* tab_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F13CD35A16C84ECB2E10D2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D99A76F207C53F6F1FFA4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F75632AD4BFFE16E5709FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5941C941BF0F548008FCD5E /* Sources */ = {
@@ -151,8 +336,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5941CA31BF0F548008FCD5E /* ViewController.m in Sources */,
+				B5ED608D1BF3735D003250C8 /* MineViewController.m in Sources */,
 				B5941CA01BF0F548008FCD5E /* AppDelegate.m in Sources */,
+				B5ED608A1BF3734C003250C8 /* ListViewController.m in Sources */,
 				B5941C9D1BF0F548008FCD5E /* main.m in Sources */,
+				B5ED60871BF3732E003250C8 /* HomeViewController.m in Sources */,
+				B5ED60901BF37A55003250C8 /* Menu.m in Sources */,
+				B5ED607A1BF37023003250C8 /* ASTabBarController.m in Sources */,
+				B5ED60961BF37B07003250C8 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +451,7 @@
 		};
 		B5941CB01BF0F548008FCD5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33162F88F74C67AFB21E19B6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PodAbelsu/Info.plist;
@@ -271,6 +463,7 @@
 		};
 		B5941CB11BF0F548008FCD5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E66A245258C551642EE7963 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PodAbelsu/Info.plist;
@@ -299,6 +492,7 @@
 				B5941CB11BF0F548008FCD5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
